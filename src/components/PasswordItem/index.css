@@ -1,0 +1,86 @@
+.each-list-item {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  max-width: 280px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c3caea;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.first-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+}
+.first-letter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  font-weight: bold;
+  border-radius: 100%;
+  color: #ffffff;
+  height: 40px;
+  margin-right: 10px;
+}
+.website-text {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 2px;
+}
+@media (min-width: 567px) {
+  .website-text {
+    font-size: 20px;
+  }
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 30px;
+  height: 30px;
+}
+.stars-img {
+  width: 70px;
+  height: 10px;
+}
+@media (min-width: 567px) {
+  .stars-img {
+    width: 100px;
+    height: 20px;
+  }
+}
+.color1 {
+  background-color: #f59e0b;
+}
+.color2 {
+  background-color: #10b981;
+}
+.color3 {
+  background-color: #f97316;
+}
+.color4 {
+  background-color: #14b8a6;
+}
+.color5 {
+  background-color: #b91c1c;
+}
+.color6 {
+  background-color: #b6c3ca;
+}
+.color7 {
+  background-color: #64748b;
+}
+.color8 {
+  background-color: #7683cb;
+}

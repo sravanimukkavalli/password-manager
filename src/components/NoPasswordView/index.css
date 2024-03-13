@@ -1,0 +1,22 @@
+.no-psd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-psd-img {
+  width: 70%;
+  height: 35%;
+}
+@media (min-width: 768px) {
+  .no-psd-img {
+    height: 260px;
+    width: 330px;
+  }
+}
+.no-psd-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
