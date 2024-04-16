@@ -163,8 +163,8 @@ class DisplayPasswords extends Component {
                 </div>
                 <input
                   type="password"
-                  placeholder="Enter Password"
                   className="input"
+                  placeholder="Enter Password"
                   value={passwordInput}
                   onChange={this.onChangePassword}
                   required
@@ -173,13 +173,6 @@ class DisplayPasswords extends Component {
               <div className="button-container">
                 <button type="submit" className="add-btn">
                   Add
-                </button>
-                <button
-                  type="button"
-                  className="add-btn"
-                  onClick={this.onClickSave}
-                >
-                  Save
                 </button>
               </div>
             </form>
@@ -216,6 +209,13 @@ class DisplayPasswords extends Component {
           </div>
           <hr className="separator" />
           <div className="button-container">
+            <button
+              type="button"
+              className="add-btn"
+              onClick={this.onClickSave}
+            >
+              Save
+            </button>
             <div className="checkbox-container">
               <input
                 type="checkbox"
